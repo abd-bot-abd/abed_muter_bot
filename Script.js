@@ -28,7 +28,7 @@ document.body.innerHTML += `
   <div class="text"><img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/0.svg">Default</div>
   <div class="menu transition hidden" tabindex="-1">
   <div data-value="0" class="item active selected">
-        <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/0.svg">Default</div><div data-value="1" class="item">
+        <img class="ui avatar image" src="https://cdn.discordapp.com/avatars/1015999052413939762/2f5064debc9056f7097fa2798de23b25.webp?size=80">Default</div><div data-value="1" class="item">
         <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/1.svg">Man 1</div><div data-value="2" class="item">
         <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/2.svg">Man 2</div><div data-value="3" class="item">
         <img class="ui avatar image" src="https://gartic.io/static/images/avatar/svg/3.svg">Man 3</div><div data-value="4" class="item">
@@ -134,6 +134,12 @@ let btn2 = document.querySelector('#clearall');
 let url = document.querySelector('#roomcode input'); 
 let amount = document.querySelector('#botamount input');
 let watchtheroom = document.querySelector('#watchtheroom'); 
+
+
+
+
+
+
 
 let reportdraw = document.querySelector('#reportdraw');
 let spambutton = document.querySelector('#startspam');
@@ -312,8 +318,8 @@ setInterval(function() {  if(spam == true){
 	const regex = /\b[aA]\.?([lLℓᎥiI]\.?){2}[hH𝔥ʜ]*[\W_]*[aA]\.?([lLℓᏂhH𝔥ʜ]*[\W_]*){1,2}\b|\b(?:[^\w\s]*[aA][^\w\s]*){2,}|\b[ᴬaA][ˡlL1Ii][ᴸlL1Ii]?[ᴬaA][ℍhH](?:\W*[\/*\-+.,:;]\W*)*[^\W_]*|\b[hH][ℑℎhHℏ𝕙𝖍𝗁][𝖺aA𝗮𝘢ⓗ𝐡][𝛂𝛼aA𝒶𝓪𝔞𝕒]+(?:\W*[\/*\-+.,:;]\W*)*[^\W_]*[lLℓIi][^w\s]*[lLℓIi](?:\W*[\/*\-+.,:;]\W*)*[^\W_]*[aA][^\w\s]*[hH][ℑℎhHℏ𝕙𝖍𝗁][𝖺aA𝗮𝘢ⓗ𝐡][𝛂𝛼aA𝒶𝓪𝔞𝕒]+(?:\W*[\/*\-+.,:;]\W*)*[^\W_]*\b/gi;
 
         if (regex.test(spamtext.value)) {
-          spamtext.value = "anonimbiri";
-          spamtext = "anonimbiri";
+          spamtext.value = "ABED_MUTER";
+          spamtext = "ABED_MUTER";
         }
 	if(s_id == 1){document.querySelectorAll('iframe').forEach( item =>
   item.contentWindow.postMessage({'command': 'spam', 'spam': spam, 'spamid': spamid,  'text': spamtext.value}, '*')
@@ -325,7 +331,7 @@ setInterval(function() {  if(spam == true){
   item.contentWindow.postMessage({'command': 'spam', 'spam': spam, 'spamid': spamid,  'text': "឵" + spamtext.value}, '*')
 ); s_id = 4;}
 	else if(s_id == 4){document.querySelectorAll('iframe').forEach( item =>
-  item.contentWindow.postMessage({'command': 'spam', 'spam': spam, 'spamid': spamid,  'text': "github.com/anonimbiri"}, '*')
+  item.contentWindow.postMessage({'command': 'spam', 'spam': spam, 'spamid': spamid,  'text': "ABED_MUTER"}, '*')
 ); s_id = 1;} } 
 }, 3000);
 
